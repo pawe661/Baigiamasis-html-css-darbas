@@ -1,0 +1,19 @@
+.get-out {
+    display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+.get-out a {
+    width: 6%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.get-out a img {
+    width: 100%;
+
+}
+.get-out h4 {
+    color:#475569 ;
+}
