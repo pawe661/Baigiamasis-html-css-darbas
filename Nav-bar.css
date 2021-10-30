@@ -26,6 +26,7 @@ a {
     align-items: center;
     padding: 1rem 1.5rem;
     background-color: #475569;
+    
 }
 .hamburger {
     display: none;
@@ -123,4 +124,10 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+}
+@media only screen and (min-width: 1700px) {
+    .navbar {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }

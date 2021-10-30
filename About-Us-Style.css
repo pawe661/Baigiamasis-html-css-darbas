@@ -1,0 +1,75 @@
+.moto {
+    display: flex;
+	flex-wrap: wrap;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    font-weight: 400;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.moto span {
+    font-weight: 600;
+}
+.moto-intro {
+    font-size: 2.7rem;
+    flex: 69%;
+    color: rgb(97, 97, 97);
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.moto-content {
+    font-size: 1rem;
+    flex: 24%;
+    color: rgb(97, 97, 97);
+    margin-left: 1%;
+    margin-right: 2%;
+    padding-top: 1%;
+}
+@media (max-width: 1200px) {
+    .moto-content, .moto-intro {
+      flex: 100%;
+    }
+}
+.team {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.team-member {
+    width: auto;
+    margin-left: 1%;
+    margin-right: 1%;  
+}
+.team-member-picture{
+    
+    width:22rem;
+    border: 0.5rem inset #475569;
+    font-size:0;
+}
+.team-member-picture img {
+    max-width:100%;
+    max-height:100%;    
+}
+.team-member-information {
+    text-align: center;
+    color: rgb(97, 97, 97);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-bottom: 3%;
+    letter-spacing: 0.6px;
+}
+.team-member-information h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.team-member-information h3 {
+    font-weight: 600;
+    font-size: 1.7em;
+}
+.team-member-information p {
+    font-size: 1.2em;
+}
+@media (min-width: 1300px) {
+    .team-member-picture img{
+      width: auto;
+    }
+}
