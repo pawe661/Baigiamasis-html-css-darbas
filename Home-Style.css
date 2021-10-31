@@ -17,3 +17,11 @@
 .get-out h4 {
     color:#475569 ;
 }
+
+.srvices-text ul {
+    list-style: none;
+  }
+  
+.srvices-text ul li:before {
+    content: '✓';
+  }
